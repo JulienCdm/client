@@ -182,7 +182,7 @@ namespace MysqlAppModel
             firstRowIndex = DGrid_Result.SelectedRows.Count - 1;
             NumClient = DGrid_Result.SelectedRows[firstRowIndex].Cells[0].Value.ToString();
 
-            DialogResult dialogResult = MessageBox.Show("Etes-vous certain de vouloir supprimer cet enregistrement ?", "Demande de confirmation", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Etes-vous certain de vouloir supprimer cet enregistrement la ?", "Demande de confirmation", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
                 GestClient myclient = new GestClient();
