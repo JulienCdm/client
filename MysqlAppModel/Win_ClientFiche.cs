@@ -184,7 +184,7 @@ namespace MysqlAppModel
 
         private void Txt_DateContact_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
-
+            
         }
 
         private void Txt_NomClient_TextChanged(object sender, EventArgs e)

@@ -249,11 +249,10 @@
             // 
             this.Txt_DateContact.Location = new System.Drawing.Point(135, 245);
             this.Txt_DateContact.Margin = new System.Windows.Forms.Padding(4);
-            this.Txt_DateContact.Mask = "00/00/0000";
+            this.Txt_DateContact.Mask = "05/04/2022";
             this.Txt_DateContact.Name = "Txt_DateContact";
             this.Txt_DateContact.Size = new System.Drawing.Size(132, 22);
             this.Txt_DateContact.TabIndex = 20;
-            this.Txt_DateContact.Text = "20021979";
             this.Txt_DateContact.ValidatingType = typeof(System.DateTime);
             this.Txt_DateContact.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Txt_DateContact_MaskInputRejected);
             this.Txt_DateContact.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_DateContact_KeyPress);
