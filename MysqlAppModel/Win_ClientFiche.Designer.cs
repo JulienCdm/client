@@ -48,7 +48,6 @@
             this.Txt_NoteMoy = new System.Windows.Forms.TextBox();
             this.Lab_NoteMoy = new System.Windows.Forms.Label();
             this.Txt_DateContact = new System.Windows.Forms.MaskedTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Lab_CodeClient
@@ -249,7 +248,7 @@
             // 
             this.Txt_DateContact.Location = new System.Drawing.Point(135, 245);
             this.Txt_DateContact.Margin = new System.Windows.Forms.Padding(4);
-            this.Txt_DateContact.Mask = "05/04/2022";
+            this.Txt_DateContact.Mask = "00/00/0000";
             this.Txt_DateContact.Name = "Txt_DateContact";
             this.Txt_DateContact.Size = new System.Drawing.Size(132, 22);
             this.Txt_DateContact.TabIndex = 20;
@@ -258,22 +257,11 @@
             this.Txt_DateContact.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_DateContact_KeyPress);
             this.Txt_DateContact.Validating += new System.ComponentModel.CancelEventHandler(this.Txt_DateContact_Validating);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(241, 25);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(297, 17);
-            this.label1.TabIndex = 21;
-            this.label1.Text = "Pour l\'exemple saisir code alphanum aleatoire";
-            // 
             // Win_ClientFiche
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(552, 358);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.Txt_DateContact);
             this.Controls.Add(this.Txt_NoteMoy);
             this.Controls.Add(this.Lab_NoteMoy);
@@ -328,6 +316,5 @@
         private System.Windows.Forms.TextBox Txt_NoteMoy;
         private System.Windows.Forms.Label Lab_NoteMoy;
         private System.Windows.Forms.MaskedTextBox Txt_DateContact;
-        private System.Windows.Forms.Label label1;
     }
 }

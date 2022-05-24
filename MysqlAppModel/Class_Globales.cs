@@ -140,11 +140,11 @@ namespace MysqlAppModel
             try
             {
 
-                Param_Server       = Properties.Settings.Default.Param_Server   ;
-                Param_UserId       = Properties.Settings.Default.Param_UserId   ;
-                Param_PassWord     = Properties.Settings.Default.Param_PassWord ;
-                Param_MainDatabase = Properties.Settings.Default.Param_MainDatabase ;
-                Param_MysqlPort    = Properties.Settings.Default.Param_MysqlPort    ;
+                Param_Server       = ApplicationProspection.Properties.Settings.Default.Param_Server   ;
+                Param_UserId       = ApplicationProspection.Properties.Settings.Default.Param_UserId   ;
+                Param_PassWord     = ApplicationProspection.Properties.Settings.Default.Param_PassWord ;
+                Param_MainDatabase = ApplicationProspection.Properties.Settings.Default.Param_MainDatabase ;
+                Param_MysqlPort    = ApplicationProspection.Properties.Settings.Default.Param_MysqlPort    ;
 
                 return true;
 
@@ -163,13 +163,13 @@ namespace MysqlAppModel
             try
             {
 
-                Properties.Settings.Default.Param_Server       = Param_Server   ;
-                Properties.Settings.Default.Param_UserId       = Param_UserId   ;
-                Properties.Settings.Default.Param_PassWord     = Param_PassWord ;
-                Properties.Settings.Default.Param_MainDatabase = Param_MainDatabase ;
-                Properties.Settings.Default.Param_MysqlPort    = Param_MysqlPort    ;
+                ApplicationProspection.Properties.Settings.Default.Param_Server       = Param_Server   ;
+                ApplicationProspection.Properties.Settings.Default.Param_UserId       = Param_UserId   ;
+                ApplicationProspection.Properties.Settings.Default.Param_PassWord     = Param_PassWord ;
+                ApplicationProspection.Properties.Settings.Default.Param_MainDatabase = Param_MainDatabase ;
+                ApplicationProspection.Properties.Settings.Default.Param_MysqlPort    = Param_MysqlPort    ;
 
-                Properties.Settings.Default.Save();
+                ApplicationProspection.Properties.Settings.Default.Save();
 
                 return true;
 

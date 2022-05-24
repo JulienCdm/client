@@ -87,7 +87,7 @@ namespace MysqlAppModel
 
 					
 			//	string Query = "insert into client(codeclient,nomclient) values( @Param_CodeClient, @Param_NomClient  );";
-				string Query =		"  insert into client(codeclient,nomclient,adresse,codepostal,ville,tel,email,datenaissance,notemoy) values (  "
+				string Query =		"  insert into client(codeclient,nomclient,adresse,codepostal,ville,tel,email,datecontact,notemoy) values (  "
 									+ " @Param_CodeClient		, "
 									+ " @Param_NomClient		, "
 									+ " @Param_Adresse			, "

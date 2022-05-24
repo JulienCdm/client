@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{219BFC8B-A65C-4725-94B1-A42F4A9C4439}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MysqlAppModel</RootNamespace>
-    <AssemblyName>MysqlAppModel</AssemblyName>
+    <RootNamespace>ApplicationProspection</RootNamespace>
+    <AssemblyName>ApplicationProspection</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -105,6 +105,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Win_Bienvenue.resx">
       <DependentUpon>Win_Bienvenue.cs</DependentUpon>
